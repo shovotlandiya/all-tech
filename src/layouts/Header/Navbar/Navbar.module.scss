@@ -1,0 +1,25 @@
+@import "@/styles/common";
+@import "@/styles/variables";
+
+.navList {
+  @include flex($x: center, $y: space-between);
+
+  .navCenter {
+    @include flex($x: center, $y: space-between, $gap: 20px);
+
+    .navInput {
+      display: block;
+      width: 500px;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: $text-color;
+    }
+  }
+  .navRight {
+    color: $text-color;
+    @include flex($x: center, $y: space-between, $gap: 20px);
+  }
+  .navLeft {
+    color: $text-color;
+  }
+}

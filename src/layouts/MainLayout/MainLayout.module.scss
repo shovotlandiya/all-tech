@@ -1,0 +1,15 @@
+@import "@/styles/common";
+
+.mainLayout {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  @include flex($direction: column);
+
+  .content {
+    margin-top: 80px;
+    width: 100%;
+    flex-grow: 1;
+    @include flex($direction: column);
+  }
+}

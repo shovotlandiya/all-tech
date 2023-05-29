@@ -1,0 +1,115 @@
+// grid breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+  xxxl: 1920px,
+) !default;
+
+// Banner image aspect-ratio
+$banner-aspect-ratio: (
+  mobile-portrait: 320 / 568,
+  mobile-landscape: 568 / 300,
+  tablet-portrait: 768 / 720,
+  tablet-landscape: 1024 / 680,
+  desktop: 1920 / 900,
+) !default;
+
+// Container width
+$container-max-width: 97.5rem;
+
+// main colors
+$text-color: #fff;
+
+// Header
+$header-bg: #282828;
+$header-bg-hover: #2c2c2c;
+
+// Buttons
+$blue-500: #0078d7;
+$border-radius: 0.5rem;
+$player-border-radius: 2rem;
+$blue-700: #005599;
+$neutral-700: #2c2c2c;
+
+$neutral-400: #565656;
+$backdrop-color: rgba(0, 0, 0, 0.6);
+
+// footer active class
+$blue-400: #3393df;
+
+// Project section
+$blue-600: #006dc4;
+$project-card-bg-hover: linear-gradient(
+    180deg,
+    rgba(43, 43, 43, 0.1) 0%,
+    rgba(20, 20, 20, 0.3) 100%
+  ),
+  url(itv-cover.png);
+
+// vacancy box shadow
+$vacancy-box-shadow: 0 0.35rem 0.625rem rgba(29, 29, 29, 0.6);
+
+// Footer
+$footer-title-font-size: 1.5rem;
+$footer-text-font-size: 1rem;
+
+$transition-duration: 0.3s;
+
+// weights
+$bold: 700;
+$semibold: 600;
+$medium: 500;
+$regular: 400;
+
+// Typography textsizes
+$display-1: 4rem;
+$display-1-height: 4.5rem;
+
+$display-2: 3rem;
+$display-2-height: 3.5rem;
+
+$heading-1: 2.5rem;
+$heading-1-height: 3rem;
+
+$heading-2: 2.25rem;
+$heading-2-height: 2.625rem;
+
+$heading-3: 2rem;
+$heading-3-height: 2.5rem;
+
+$heading-4: 1.75rem;
+$heading-4-height: 2.25rem;
+
+$heading-5: 1.625rem;
+$heading-5-height: 2rem;
+
+$heading-6: 1.5rem;
+$heading-6-height: 2rem;
+
+$base: 1.25rem;
+$base-height: 1.75rem;
+
+$body-1: 1.125rem;
+$body-1-height: 1.625rem;
+
+$body-2: 1rem;
+$body-2-height: 1.5rem;
+
+$body-3: 0.938rem;
+$body-3-height: 1.375rem;
+
+$body-4: 0.875rem;
+$body-4-height: 1.125rem;
+
+$body-5: 0.8rem;
+$body-5-height: 1.125rem;
+
+$small-1: 0.75rem;
+$small-1-height: 1rem;
+
+$small-2: 0.625rem;
+$small-2-height: 0.875rem;

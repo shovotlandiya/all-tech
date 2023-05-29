@@ -1,0 +1,82 @@
+@import "@/styles/variables";
+
+.typography {
+  // font-weight
+  &.bold {
+    font-weight: $bold;
+  }
+  &.semibold {
+    font-weight: $semibold;
+  }
+  &.medium {
+    font-weight: $medium;
+  }
+  &.regular {
+    font-weight: $regular;
+  }
+  // font-size
+  &.small1 {
+    font-size: $small-1;
+    line-height: $small-1-height;
+  }
+  &.small2 {
+    font-size: $small-2;
+    line-height: $small-2-height;
+  }
+  &.body5 {
+    font-size: $body-5;
+    line-height: $body-5-height;
+  }
+  &.body4 {
+    font-size: $body-4;
+    line-height: $body-4-height;
+  }
+  &.body3 {
+    font-size: $body-3;
+    line-height: $body-3-height;
+  }
+  &.body2 {
+    font-size: $body-2;
+    line-height: $body-2-height;
+  }
+  &.body1 {
+    font-size: $body-1;
+    line-height: $body-1-height;
+  }
+  &.base {
+    font-size: $base;
+    line-height: $base-height;
+  }
+  &.heading6 {
+    font-size: $heading-6;
+    line-height: $heading-6-height;
+  }
+  &.heading5 {
+    font-size: $heading-5;
+    line-height: $heading-5-height;
+  }
+  &.heading4 {
+    font-size: $heading-4;
+    line-height: $heading-4-height;
+  }
+  &.heading3 {
+    font-size: $heading-3;
+    line-height: $heading-3-height;
+  }
+  &.heading2 {
+    font-size: $heading-2;
+    line-height: $heading-2-height;
+  }
+  &.heading1 {
+    font-size: $heading-1;
+    line-height: $heading-1-height;
+  }
+  &.display1 {
+    font-size: $display-1;
+    line-height: $display-1-height;
+  }
+  &.display2 {
+    font-size: $display-2;
+    line-height: $display-2-height;
+  }
+}

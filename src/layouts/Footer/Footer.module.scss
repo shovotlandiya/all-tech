@@ -1,0 +1,25 @@
+@import "@/styles/common";
+@import "@/styles/variables";
+
+.footer {
+  width: 100%;
+  padding: 100px;
+  background-color: rgb(7%, 10%, 13%, 1);
+  color: $text-color;
+
+  &Inner {
+    padding: 30px 0;
+  }
+
+  .footerList {
+    @include flex($x: center, $y: space-between, $gap: 30px);
+
+    .footerLeft {
+      @include flex($x: flex-start, $direction: column, $gap: 20px);
+    }
+
+    .footerRight {
+      @include flex($direction: column, $gap: 20px);
+    }
+  }
+}
